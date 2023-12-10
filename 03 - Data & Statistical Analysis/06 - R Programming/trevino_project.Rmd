@@ -1,0 +1,176 @@
+---
+title: "Project"
+author: "Sal Trevino"
+date: "5/11/2021"
+output: html_document
+---
+
+
+## Q1 – Read in the ities.csv and max_temp.csv as dataframe objects ***df*** and ***df_weather_weekly***, respectively.
+
+```{r}
+# Import Libraries.----
+library(tidyverse)
+library(magrittr)
+library(lubridate)
+```
+
+```{r}
+# Reads in the ities.csv and max_temp.csv as dataframe objects df and df_weather_weekly.----
+df <- read.csv('ities.csv')
+df_weather_weekly <- read.csv('max_temp.csv')
+```
+
+
+## Q2 – Display the number of rows and columns in ***df*** and ***df_weather_weekly***, respectively, using an appropriate R function.
+
+--Number of rows and columns for the ***df*** dataframe:
+```{r}
+# Tells how many rows and columns are in the df dataframe.----
+dim(df)
+```
+The ***df*** dataframe has 438,151 rows and 13 columns.
+
+*Number of rows and columns for the ***df_weather_weekly*** dataframe:
+```{r}
+# Tells how many rows and columns are in the df_weather_weekly dataframe.----
+dim(df_weather_weekly)
+```
+The ***df_weather_weekly*** dataframe has 52 rows and 9 columns.
+
+
+## Q3 – Display the structures of the dataframes, ***df*** and ***df_weather_weekly***. Below the output, comment on the appropriateness of the datatypes for the columns.
+
+*Structure of the ***df*** dataframe:
+```{r}
+# Provides an overview of the structure of the df dataframe.----
+str(df)
+```
+
+```{r}
+# Provides an overview of the features of the df dataframe.----
+names(df)
+```
+
+*Structure of the ***df_weather_weekly*** dataframe:
+```{r}
+# Provides an overview of the structure of the df_weather_weekly dataframe.----
+str(df_weather_weekly)
+```
+
+```{r}
+# Provides an overview of the features of the df dataframe.----
+names(df_weather_weekly)
+```
+
+Both datatypes (df and df_weather_weekly) are appropriate because the data provided is in a tidy format. Observations and features are well structured and, if needed, it is easy to comibine both dataframes via a common column (characteristic) which is by using the date column. 
+
+
+## Q4 – Display summaries of the columns in the dataframes, ***df*** and ***df_weather_weekly***. 
+
+*Summary of the df dataframe:
+```{r}
+# Provides summary of the df dataframe.----
+summary(df)
+```
+
+*Summary of the df dataframe:
+```{r}
+# Provides summary of the df_weather_weekly dataframe.----
+summary(df_weather_weekly)
+```
+
+
+## Q5 – Display the missing values, if any, in ***df***. You can choose to remove or input the missing values and defend that choice in 1-2 sentences for each column with missing values.
+
+*Missing values in df dataframe:
+```{r}
+# Displaying missing values of the df dataframe.----
+colSums(is.na(df))
+```
+
+*Dealing with missing values in df dataframe:
+```{r}
+# Inputing missing values with mean.----
+df_nona1 <- df %>%
+  mutate(
+    Price = ifelse(is.na(Price), mean(Price, na.rm = T), Price)
+    , Price
+  ) %>%
+  ungroup()
+```
+
+```{r}
+# Inputing missing values with mean.----
+df_nona2 <- df_nona1 %>%
+  mutate(
+    TotalDue = ifelse(is.na(TotalDue), mean(TotalDue, na.rm = T), TotalDue)
+    , TotalDue
+  ) %>%
+  ungroup()
+```
+
+```{r}
+# Displaying missing values of the df dataframe.----
+summary(df_nona2)
+colSums(is.na(df_nona2))
+```
+
+Since we have a large enough sample of historical data on price we can fill in the missing prices with the average price for the 12 observations that are missing values. Once we have those missing prices, we can proceed with also removing any NA missing values for the TotalDue column as well. By doing this, we end up with a complete dataframe, void of any NA missing values.
+
+
+## Q6 – Create a new dataset ***df_daily*** by aggregating the dataframe ***df*** at the ***daily*** level. The dataframe ***df_daily*** must have the columns ***Quantity*** and ***TotalDue*** from ***df*** summarized at the daily level. In one to two sentences, defend the choice of the summary measure (sum, mean, or other) used to aggregate the values  in  each column.
+
+```{r}
+# Aggregating df_daily dataframe so that we now have a "Quantity" and "TotalDue" column.----
+df_daily <- df_nona2 %>%
+  mutate(
+    Date = mdy(Date)
+    , date = round_date(Date, 'day')
+  ) %>%
+  group_by(date) %>%
+  summarise(TotalDue = mean(TotalDue, na.rm = T)
+            , Quantity = mean(Quantity, na.rm = T)) %>%
+  ungroup()
+summary(df_daily)
+```
+
+I chose to use the average (mean) summary measure when aggregating the values in each colum because it provides a snapshot of the quantity customers are purchasing each day and, on average, and how much they are on average spending. We can look at individual days and compare that to the overall average in quantity and total due data set for the entire sample and try to understand trends for when customer purchases increase or decrease.
+
+
+## Q7 – Convert the dataframe ***df_weather_weekly*** from ***wide to long*** such that names of the seven columns (Monday:Sunday) are in a new column ***day*** and the values from those seven columns (Monday:Sunday) are in a new column ***max_temp***. The name of the long dataframe will be ***df_weather_daily***. 
+
+```{r}
+# Converting the df_weather_weekly dataframe from a wide column to a long column.----
+df_weather_daily <- df_weather_weekly %>%
+  pivot_longer(cols = Monday:Sunday
+               , names_to = 'day'
+               , values_to = 'max_temp')
+```
+
+## Q8 – Merge/join the dataframes ***df_daily*** and ***df_weather_daily*** into one dataframe ***df_final*** such that only the rows that are in  both ***df_daily*** and ***df_weather_daily*** are in ***df_final***.
+
+```{r}
+# Converting character strings to dates on the df_weather_daily table.----
+df_weather_daily$WeekStarting <- as.Date(df_weather_daily$WeekStarting, format = '%m/%d/%y')
+```
+
+```{r}
+# Renaming the WeekStarting column to a common name across both tables so that they can be joined.----
+df_weather_daily <- df_weather_daily %>% rename(date = WeekStarting)
+```
+
+```{r}
+# Joining the df_daily and df_weather_daily into one final, single table.----
+df_final <- df_weather_daily %>%
+  full_join(df_daily, by = 'date')
+```
+
+## Q9 – Display a pairplot like the one demonstrated in the "Getting to Know Your Data 3: Summary Statistics for Each Column, and Quick Plots" video of module 2 (e.g., plot(iris[,c('Sepal.Length', 'Sepal.Wdith', 'Petal.Length')])). Create this pairplot for three columns from ***df_final***: Quantity, TotalDue, and max_temp. Below the output, interpret the scatter plots that are in the pairpot.
+
+```{r}
+# Visually exploring the shape of the data----
+plot(df_final[,c('Quantity', 'TotalDue', 'max_temp')])
+```
+
+When comparing and analyzing the various different scatter plots that are in the pairpot it is evident that there's a bit of a relation between Quantity and TotalDue plots, with most of the data being concentrated on the lower left-hand corner. However, when comparing max_temp versus either TotalDue or Quantity, there's not much correlation since the points are scattered across the scatter plot. Using these charts, it is difficult to tell if higher temperatures equate to higher purchasing habits and, ultimately, higher revenues from TotalDue. One variable that we should account for is the fact that our sample size for Quantity and TotalDue was much larger than our sample size for max_temp (which only accounted for one year). Perhaps, a larger sample of max_temp to coincide with TotalDue and Quantity might be considered.

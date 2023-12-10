@@ -1,0 +1,162 @@
+Game,Date / Box Score,Opponent,Score,Decision,Record
+1,03-28-2019,at Kansas City Royals,3-5,L,0-1
+2,03-30-2019,at Kansas City Royals,6-8,L,0-2
+3,03-31-2019,at Kansas City Royals,6-3,W,1-2
+4,04-01-2019,at Cleveland Indians,3-5,L,1-3
+5,04-03-2019,at Cleveland Indians,8-3,W,2-3
+6,04-05-2019,vs Seattle Mariners,10-8,W,3-3
+7,04-06-2019,vs Seattle Mariners,2-9,L,3-4
+8,04-07-2019,vs Seattle Mariners,5-12,L,3-5
+9,04-08-2019,vs Tampa Bay Rays,1-5,L,3-6
+10,04-09-2019,vs Tampa Bay Rays,5-10,L,3-7
+11,04-10-2019,vs Tampa Bay Rays,1-9,L,3-8
+12,04-12-2019,at New York Yankees,9-6,W,4-8
+13,04-13-2019,at New York Yankees,0-4,L,4-9
+14,04-14-2019,at New York Yankees,5-2,W,5-9
+15,04-15-2019,vs Kansas City Royals,5-4,W,6-9
+16,04-16-2019,vs Kansas City Royals,5-1,W,7-9
+17,04-17-2019,vs Kansas City Royals,3-4,L,7-10
+18,04-18-2019,at Detroit Tigers,7-9,L,7-11
+19,04-19-2019,at Detroit Tigers,7-3,W,8-11
+20,04-21-2019,at Detroit Tigers,3-4,L,8-12
+21,04-22-2019,at Baltimore Orioles,12-2,W,9-12
+22,04-23-2019,at Baltimore Orioles,1-9,L,9-13
+23,04-24-2019,at Baltimore Orioles,3-4,L,9-14
+24,04-26-2019,vs Detroit Tigers,12-11,W,10-14
+25,04-28-2019,vs Detroit Tigers,4-1,W,11-14
+26,04-29-2019,vs Baltimore Orioles,5-3,W,12-14
+27-I,05-01-2019,vs Baltimore Orioles,4-5,L,12-15
+28-II,05-01-2019,vs Baltimore Orioles,7-6,W,13-15
+29,05-02-2019,vs Boston Red Sox,6-4,W,14-15
+30,05-03-2019,vs Boston Red Sox,1-6,L,14-16
+31,05-04-2019,vs Boston Red Sox,2-15,L,14-17
+32,05-05-2019,vs Boston Red Sox,2-9,L,14-18
+33,05-06-2019,at Cleveland Indians,9-1,W,15-18
+34,05-07-2019,at Cleveland Indians,2-0,W,16-18
+35,05-08-2019,at Cleveland Indians,3-5,L,16-19
+36,05-09-2019,at Cleveland Indians,0-5,L,16-20
+37,05-10-2019,at Toronto Blue Jays,3-4,L,16-21
+38,05-11-2019,at Toronto Blue Jays,7-2,W,17-21
+39,05-12-2019,at Toronto Blue Jays,5-1,W,18-21
+40,05-13-2019,vs Cleveland Indians,5-2,W,19-21
+41,05-14-2019,vs Cleveland Indians,0-9,L,19-22
+42,05-16-2019,vs Toronto Blue Jays,4-2,W,20-22
+43,05-17-2019,vs Toronto Blue Jays,2-10,L,20-23
+44,05-18-2019,vs Toronto Blue Jays,4-1,W,21-23
+45,05-19-2019,vs Toronto Blue Jays,2-5,L,21-24
+46,05-20-2019,at Houston Astros,0-3,L,21-25
+47,05-21-2019,at Houston Astros,1-5,L,21-26
+48,05-22-2019,at Houston Astros,9-4,W,22-26
+49,05-23-2019,at Houston Astros,4-0,W,23-26
+50,05-24-2019,at Minnesota Twins,4-11,L,23-27
+51,05-25-2019,at Minnesota Twins,1-8,L,23-28
+52,05-26-2019,at Minnesota Twins,0-7,L,23-29
+53,05-27-2019,vs Kansas City Royals,2-1,W,24-29
+54,05-28-2019,vs Kansas City Royals,4-3,W,25-29
+55,05-29-2019,vs Kansas City Royals,8-7,W,26-29
+56,05-30-2019,vs Cleveland Indians,10-4,W,27-29
+57,05-31-2019,vs Cleveland Indians,6-1,W,28-29
+58,06-01-2019,vs Cleveland Indians,2-5,L,28-30
+59,06-02-2019,vs Cleveland Indians,2-0,W,29-30
+60,06-04-2019,at Washington Nationals,5-9,L,29-31
+61,06-05-2019,at Washington Nationals,4-6,L,29-32
+62,06-07-2019,at Kansas City Royals,4-6,L,29-33
+63,06-08-2019,at Kansas City Royals,2-0,W,30-33
+64,06-09-2019,at Kansas City Royals,5-2,W,31-33
+65,06-10-2019,vs Washington Nationals,1-12,L,31-34
+66,06-11-2019,vs Washington Nationals,7-5,W,32-34
+67,06-13-2019,vs New York Yankees,5-4,W,33-34
+68,06-14-2019,vs New York Yankees,10-2,W,34-34
+69,06-15-2019,vs New York Yankees,4-8,L,34-35
+70,06-16-2019,vs New York Yankees,3-10,L,34-36
+71,06-18-2019,at Chicago Cubs,3-1,W,35-36
+72,06-19-2019,at Chicago Cubs,3-7,L,35-37
+73,06-21-2019,at Texas Rangers,5-4,W,36-37
+74,06-22-2019,at Texas Rangers,5-6,L,36-38
+75,06-23-2019,at Texas Rangers,4-7,L,36-39
+76,06-24-2019,at Boston Red Sox,5-6,L,36-40
+77,06-25-2019,at Boston Red Sox,3-6,L,36-41
+78,06-26-2019,at Boston Red Sox,8-7,W,37-41
+79,06-28-2019,vs Minnesota Twins,6-4,W,38-41
+80,06-29-2019,vs Minnesota Twins,3-10,L,38-42
+81,06-30-2019,vs Minnesota Twins,4-3,W,39-42
+82-I,07-03-2019,vs Detroit Tigers,7-5,W,40-42
+83-II,07-03-2019,vs Detroit Tigers,9-6,W,41-42
+84,07-04-2019,vs Detroit Tigers,5-11,L,41-43
+85,07-06-2019,vs Chicago Cubs,3-6,L,41-44
+86,07-07-2019,vs Chicago Cubs,3-1,W,42-44
+87,07-12-2019,at Oakland Athletics,1-5,L,42-45
+88,07-13-2019,at Oakland Athletics,2-13,L,42-46
+89,07-14-2019,at Oakland Athletics,2-3,L,42-47
+90,07-15-2019,at Kansas City Royals,2-5,L,42-48
+91,07-16-2019,at Kansas City Royals,0-11,L,42-49
+92,07-17-2019,at Kansas City Royals,5-7,L,42-50
+93,07-18-2019,at Kansas City Royals,5-6,L,42-51
+94,07-19-2019,at Tampa Bay Rays,9-2,W,43-51
+95,07-20-2019,at Tampa Bay Rays,2-1,W,44-51
+96,07-21-2019,at Tampa Bay Rays,2-4,L,44-52
+97,07-22-2019,vs Miami Marlins,9-1,W,45-52
+98,07-23-2019,vs Miami Marlins,1-5,L,45-53
+99,07-24-2019,vs Miami Marlins,0-2,L,45-54
+100,07-25-2019,vs Minnesota Twins,3-10,L,45-55
+101,07-26-2019,vs Minnesota Twins,2-6,L,45-56
+102,07-27-2019,vs Minnesota Twins,5-1,W,46-56
+103,07-28-2019,vs Minnesota Twins,1-11,L,46-57
+104,07-30-2019,vs New York Mets,2-5,L,46-58
+105,07-31-2019,vs New York Mets,2-4,L,46-59
+106,08-01-2019,vs New York Mets,0-4,L,46-60
+107,08-02-2019,at Philadelphia Phillies,4-3,W,47-60
+108,08-03-2019,at Philadelphia Phillies,2-3,L,47-61
+109,08-04-2019,at Philadelphia Phillies,10-5,W,48-61
+110,08-05-2019,at Detroit Tigers,7-4,W,49-61
+111-I,08-06-2019,at Detroit Tigers,5-3,W,50-61
+112-II,08-06-2019,at Detroit Tigers,6-10,L,50-62
+113,08-07-2019,at Detroit Tigers,8-1,W,51-62
+114,08-09-2019,vs Oakland Athletics,0-7,L,51-63
+115,08-10-2019,vs Oakland Athletics,3-2,W,52-63
+116,08-11-2019,vs Oakland Athletics,0-2,L,52-64
+117-I,08-13-2019,vs Houston Astros,2-6,L,52-65
+118-II,08-13-2019,vs Houston Astros,4-1,W,53-65
+119,08-14-2019,vs Houston Astros,13-9,W,54-65
+120,08-15-2019,at Los Angeles Angels,7-8,L,54-66
+121,08-16-2019,at Los Angeles Angels,7-2,W,55-66
+122,08-17-2019,at Los Angeles Angels,5-6,L,55-67
+123,08-18-2019,at Los Angeles Angels,2-9,L,55-68
+124,08-19-2019,at Minnesota Twins,6-4,W,56-68
+125,08-20-2019,at Minnesota Twins,4-14,L,56-69
+126,08-21-2019,at Minnesota Twins,4-0,W,57-69
+127,08-22-2019,vs Texas Rangers,6-1,W,58-69
+128,08-23-2019,vs Texas Rangers,8-3,W,59-69
+129,08-24-2019,vs Texas Rangers,0-4,L,59-70
+130,08-25-2019,vs Texas Rangers,2-0,W,60-70
+131,08-27-2019,vs Minnesota Twins,1-3,L,60-71
+132,08-28-2019,vs Minnesota Twins,2-8,L,60-72
+133,08-29-2019,vs Minnesota Twins,5-10,L,60-73
+134,08-30-2019,at Atlanta Braves,7-10,L,60-74
+135,08-31-2019,at Atlanta Braves,5-11,L,60-75
+136,09-01-2019,at Atlanta Braves,3-5,L,60-76
+137,09-02-2019,at Cleveland Indians,3-11,L,60-77
+138,09-03-2019,at Cleveland Indians,6-5,W,61-77
+139,09-04-2019,at Cleveland Indians,6-8,L,61-78
+140,09-05-2019,at Cleveland Indians,7-1,W,62-78
+141,09-06-2019,vs Los Angeles Angels,4-5,L,62-79
+142,09-07-2019,vs Los Angeles Angels,7-8,L,62-80
+143,09-08-2019,vs Los Angeles Angels,5-1,W,63-80
+144,09-10-2019,vs Kansas City Royals,7-3,W,64-80
+145,09-11-2019,vs Kansas City Royals,6-8,L,64-81
+146,09-12-2019,vs Kansas City Royals,3-6,L,64-82
+147,09-13-2019,at Seattle Mariners,9-7,W,65-82
+148,09-14-2019,at Seattle Mariners,1-2,L,65-83
+149,09-15-2019,at Seattle Mariners,10-11,L,65-84
+150,09-16-2019,at Minnesota Twins,3-5,L,65-85
+151,09-17-2019,at Minnesota Twins,8-9,L,65-86
+152,09-18-2019,at Minnesota Twins,3-1,W,66-86
+153,09-20-2019,at Detroit Tigers,10-1,W,67-86
+154,09-21-2019,at Detroit Tigers,5-3,W,68-86
+155,09-22-2019,at Detroit Tigers,3-6,L,68-87
+156,09-24-2019,vs Cleveland Indians,0-11,L,68-88
+157,09-25-2019,vs Cleveland Indians,8-3,W,69-88
+158,09-26-2019,vs Cleveland Indians,8-0,W,70-88
+159-I,09-28-2019,vs Detroit Tigers,7-1,W,71-88
+160-II,09-28-2019,vs Detroit Tigers,3-4,L,71-89
+161,09-29-2019,vs Detroit Tigers,5-3,W,72-89

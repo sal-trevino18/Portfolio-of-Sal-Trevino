@@ -1,0 +1,163 @@
+Game,Date / Box Score,Opponent,Score,Decision,Record
+1,03-28-2019,at Texas Rangers,12-4,W,1-0
+2,03-30-2019,at Texas Rangers,6-8,L,1-1
+3,03-31-2019,at Texas Rangers,10-11,L,1-2
+4,04-01-2019,at Atlanta Braves,0-8,L,1-3
+5,04-03-2019,at Atlanta Braves,4-6,L,1-4
+6,04-04-2019,at Atlanta Braves,4-9,L,1-5
+7,04-05-2019,at Milwaukee Brewers,10-13,L,1-6
+8,04-06-2019,at Milwaukee Brewers,14-8,W,2-6
+9,04-07-2019,at Milwaukee Brewers,2-4,L,2-7
+10,04-08-2019,vs Pittsburgh Pirates,10-0,W,3-7
+11,04-10-2019,vs Pittsburgh Pirates,2-5,L,3-8
+12,04-11-2019,vs Pittsburgh Pirates,2-0,W,4-8
+13,04-12-2019,vs Los Angeles Angels,5-1,W,5-8
+14,04-13-2019,vs Los Angeles Angels,5-6,L,5-9
+15,04-15-2019,at Miami Marlins,7-2,W,6-9
+16,04-16-2019,at Miami Marlins,4-0,W,7-9
+17,04-17-2019,at Miami Marlins,6-0,W,8-9
+18,04-19-2019,vs Arizona Diamondbacks,5-1,W,9-9
+19,04-20-2019,vs Arizona Diamondbacks,0-6,L,9-10
+20,04-21-2019,vs Arizona Diamondbacks,2-1,W,10-10
+21,04-23-2019,vs Los Angeles Dodgers,7-2,W,11-10
+22,04-24-2019,vs Los Angeles Dodgers,7-6,W,12-10
+23,04-25-2019,vs Los Angeles Dodgers,1-2,L,12-11
+24,04-26-2019,at Arizona Diamondbacks,3-8,L,12-12
+25,04-27-2019,at Arizona Diamondbacks,9-1,W,13-12
+26,04-28-2019,at Arizona Diamondbacks,6-5,W,14-12
+27,04-30-2019,at Seattle Mariners,6-5,W,15-12
+28,05-01-2019,at Seattle Mariners,11-0,W,16-12
+29,05-03-2019,vs St. Louis Cardinals,4-0,W,17-12
+30,05-04-2019,vs St. Louis Cardinals,6-5,W,18-12
+31,05-05-2019,vs St. Louis Cardinals,13-5,W,19-12
+32,05-06-2019,vs Miami Marlins,5-6,L,19-13
+33,05-07-2019,vs Miami Marlins,5-2,W,20-13
+34,05-08-2019,vs Miami Marlins,3-2,W,21-13
+35,05-09-2019,vs Miami Marlins,4-1,W,22-13
+36,05-10-2019,vs Milwaukee Brewers,0-7,L,22-14
+37,05-11-2019,vs Milwaukee Brewers,2-1,W,23-14
+38,05-12-2019,vs Milwaukee Brewers,4-1,W,24-14
+39,05-14-2019,at Cincinnati Reds,3-1,W,25-14
+40,05-15-2019,at Cincinnati Reds,5-6,L,25-15
+41,05-16-2019,at Cincinnati Reds,2-4,L,25-16
+42,05-17-2019,at Washington Nationals,14-6,W,26-16
+43,05-18-2019,at Washington Nationals,2-5,L,26-17
+44,05-19-2019,at Washington Nationals,6-5,W,27-17
+45,05-20-2019,vs Philadelphia Phillies,4-5,L,27-18
+46,05-21-2019,vs Philadelphia Phillies,3-2,W,28-18
+47,05-22-2019,vs Philadelphia Phillies,8-4,W,29-18
+48,05-23-2019,vs Philadelphia Phillies,7-9,L,29-19
+49,05-24-2019,vs Cincinnati Reds,5-6,L,29-20
+50,05-25-2019,vs Cincinnati Reds,8-6,W,30-20
+51,05-26-2019,vs Cincinnati Reds,2-10,L,30-21
+52,05-27-2019,at Houston Astros,5-6,L,30-22
+53,05-28-2019,at Houston Astros,6-9,L,30-23
+54,05-29-2019,at Houston Astros,2-1,W,31-23
+55,05-31-2019,at St. Louis Cardinals,1-2,L,31-24
+56,06-01-2019,at St. Louis Cardinals,4-7,L,31-25
+57,06-02-2019,at St. Louis Cardinals,1-2,L,31-26
+58,06-03-2019,vs Los Angeles Angels,8-1,W,32-26
+59,06-04-2019,vs Colorado Rockies,6-3,W,33-26
+60,06-05-2019,vs Colorado Rockies,9-8,W,34-26
+61,06-06-2019,vs Colorado Rockies,1-3,L,34-27
+62,06-07-2019,vs St. Louis Cardinals,3-1,W,35-27
+63,06-08-2019,vs St. Louis Cardinals,9-4,W,36-27
+64,06-09-2019,vs St. Louis Cardinals,5-1,W,37-27
+65,06-10-2019,at Colorado Rockies,5-6,L,37-28
+66,06-11-2019,at Colorado Rockies,3-10,L,37-29
+67,06-12-2019,at Colorado Rockies,10-1,W,38-29
+68,06-13-2019,at Los Angeles Dodgers,3-7,L,38-30
+69,06-14-2019,at Los Angeles Dodgers,3-5,L,38-31
+70,06-15-2019,at Los Angeles Dodgers,2-1,W,39-31
+71,06-16-2019,at Los Angeles Dodgers,2-3,L,39-32
+72,06-18-2019,vs Chicago White Sox,1-3,L,39-33
+73,06-19-2019,vs Chicago White Sox,7-3,W,40-33
+74,06-20-2019,vs New York Mets,7-4,W,41-33
+75,06-21-2019,vs New York Mets,4-5,L,41-34
+76,06-22-2019,vs New York Mets,2-10,L,41-35
+77,06-23-2019,vs New York Mets,5-3,W,42-35
+78,06-24-2019,vs Atlanta Braves,8-3,W,43-35
+79,06-25-2019,vs Atlanta Braves,2-3,L,43-36
+80,06-26-2019,vs Atlanta Braves,3-5,L,43-37
+81,06-27-2019,vs Atlanta Braves,9-7,W,44-37
+82,06-28-2019,at Cincinnati Reds,3-6,L,44-38
+83,06-29-2019,at Cincinnati Reds,6-0,W,45-38
+84,06-30-2019,at Cincinnati Reds,6-8,L,45-39
+85,07-01-2019,at Pittsburgh Pirates,5-18,L,45-40
+86,07-02-2019,at Pittsburgh Pirates,1-5,L,45-41
+87,07-03-2019,at Pittsburgh Pirates,5-6,L,45-42
+88,07-04-2019,at Pittsburgh Pirates,11-3,W,46-42
+89,07-06-2019,at Chicago White Sox,6-3,W,47-42
+90,07-07-2019,at Chicago White Sox,1-3,L,47-43
+91,07-12-2019,vs Pittsburgh Pirates,4-3,W,48-43
+92,07-13-2019,vs Pittsburgh Pirates,10-4,W,49-43
+93,07-14-2019,vs Pittsburgh Pirates,8-3,W,50-43
+94,07-15-2019,vs Cincinnati Reds,3-6,L,50-44
+95,07-16-2019,vs Cincinnati Reds,4-3,W,51-44
+96,07-17-2019,vs Cincinnati Reds,5-2,W,52-44
+97,07-19-2019,vs San Diego Padres,6-5,W,53-44
+98,07-20-2019,vs San Diego Padres,6-5,W,54-44
+99,07-21-2019,vs San Diego Padres,1-5,L,54-45
+100,07-22-2019,at San Francisco Giants,4-5,L,54-46
+101,07-23-2019,at San Francisco Giants,4-5,L,54-47
+102,07-24-2019,at San Francisco Giants,4-1,W,55-47
+103,07-26-2019,at Milwaukee Brewers,2-3,L,55-48
+104,07-27-2019,at Milwaukee Brewers,3-5,L,55-49
+105,07-28-2019,at Milwaukee Brewers,11-4,W,56-49
+106,07-30-2019,at St. Louis Cardinals,1-2,L,56-50
+107,07-31-2019,at St. Louis Cardinals,2-0,W,57-50
+108,08-01-2019,at St. Louis Cardinals,0-8,L,57-51
+109,08-02-2019,vs Milwaukee Brewers,6-2,W,58-51
+110,08-03-2019,vs Milwaukee Brewers,4-1,W,59-51
+111,08-04-2019,vs Milwaukee Brewers,7-2,W,60-51
+112,08-05-2019,vs Oakland Athletics,6-5,W,61-51
+113,08-06-2019,vs Oakland Athletics,4-11,L,61-52
+114,08-07-2019,vs Oakland Athletics,10-1,W,62-52
+115,08-08-2019,at Cincinnati Reds,12-5,W,63-52
+116,08-09-2019,at Cincinnati Reds,2-5,L,63-53
+117,08-10-2019,at Cincinnati Reds,1-10,L,63-54
+118,08-11-2019,at Cincinnati Reds,6-3,W,64-54
+119,08-13-2019,at Philadelphia Phillies,2-4,L,64-55
+120,08-14-2019,at Philadelphia Phillies,1-11,L,64-56
+121,08-15-2019,at Philadelphia Phillies,5-7,L,64-57
+122,08-16-2019,at Pittsburgh Pirates,2-3,L,64-58
+123,08-17-2019,at Pittsburgh Pirates,2-0,W,65-58
+124,08-18-2019,at Pittsburgh Pirates,7-1,W,66-58
+125,08-20-2019,vs San Francisco Giants,5-3,W,67-58
+126,08-21-2019,vs San Francisco Giants,12-11,W,68-58
+127,08-22-2019,vs San Francisco Giants,1-0,W,69-58
+128,08-23-2019,vs Washington Nationals,3-9,L,69-59
+129,08-24-2019,vs Washington Nationals,2-7,L,69-60
+130,08-25-2019,vs Washington Nationals,5-7,L,69-61
+131,08-27-2019,at New York Mets,5-2,W,70-61
+132,08-28-2019,at New York Mets,10-7,W,71-61
+133,08-29-2019,at New York Mets,4-1,W,72-61
+134,08-30-2019,vs Milwaukee Brewers,7-1,W,73-61
+135,08-31-2019,vs Milwaukee Brewers,0-2,L,73-62
+136,09-01-2019,vs Milwaukee Brewers,0-4,L,73-63
+137,09-02-2019,vs Seattle Mariners,5-1,W,74-63
+138,09-03-2019,vs Seattle Mariners,6-1,W,75-63
+139,09-05-2019,at Milwaukee Brewers,10-5,W,76-63
+140,09-06-2019,at Milwaukee Brewers,1-7,L,76-64
+141,09-07-2019,at Milwaukee Brewers,2-3,L,76-65
+142,09-08-2019,at Milwaukee Brewers,5-8,L,76-66
+143,09-09-2019,at San Diego Padres,10-2,W,77-66
+144,09-10-2019,at San Diego Padres,8-9,L,77-67
+145,09-11-2019,at San Diego Padres,0-4,L,77-68
+146,09-12-2019,at San Diego Padres,4-1,W,78-68
+147,09-13-2019,vs Pittsburgh Pirates,17-8,W,79-68
+148,09-14-2019,vs Pittsburgh Pirates,14-1,W,80-68
+149,09-15-2019,vs Pittsburgh Pirates,16-6,W,81-68
+150,09-16-2019,vs Cincinnati Reds,8-2,W,82-68
+151,09-17-2019,vs Cincinnati Reds,2-4,L,82-69
+152,09-18-2019,vs Cincinnati Reds,2-3,L,82-70
+153,09-19-2019,vs St. Louis Cardinals,4-5,L,82-71
+154,09-20-2019,vs St. Louis Cardinals,1-2,L,82-72
+155,09-21-2019,vs St. Louis Cardinals,8-9,L,82-73
+156,09-22-2019,vs St. Louis Cardinals,2-3,L,82-74
+157,09-24-2019,at Pittsburgh Pirates,2-9,L,82-75
+158,09-25-2019,at Pittsburgh Pirates,2-4,L,82-76
+159,09-26-2019,at Pittsburgh Pirates,5-9,L,82-77
+160,09-27-2019,at St. Louis Cardinals,8-2,W,83-77
+161,09-28-2019,at St. Louis Cardinals,8-6,W,84-77
+162,09-29-2019,at St. Louis Cardinals,0-9,L,84-78
